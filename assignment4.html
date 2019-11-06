@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="general.css" type="text/css" media="screen">
+    <title>CheatSheet</title>
+</head>
+
+<body>
+
+    <div class="nav">
+
+        <div class="header">
+            <ul>
+                <li>Name: Benedikt Stummer</li>
+                <li>Class: 2BHIF</li>
+                <li>School: HTBLALeonding</li>
+                <li>Subject: Web technology</li>
+            </ul>
+        </div>
+
+        <a href="CheatSheet.html">Assignment</a>
+        <a href="assignment2.html">Assignment2</a>
+        <a href="assignment3.html">Assignment3</a>
+        <a class="active" href="assignment4.html">Assignment4</a>
+        <p id="heading">Assignment 4</p>
+    </div>
+    <h1>Box Model</h1>
+    <ol>
+        <li><u>Block elements have which kind of characteristics?</u></li>
+        <p>Block elements can have customized margin and padding, they also can contain other block elements</p>
+        <li><u>Inline elements have which kind of characteristics?</u></li>
+        <ul>
+            <li id="content">FLows along with content</li>
+            <li id="content">Will not clear previous content to the next line like block elements</li>
+            <li id="content">Is subject to white-space settings in CSS</li>
+        </ul>
+        <br>
+        <li><u>What is the margin of an Html element? Where can one find it?</u></li>
+        <p>A margin is the space outside something</p>
+        <li><u>What is the padding of an Html element? How does it differ from margin?</u></li>
+        <p>A padding is the space inside somethinge, opposite of margin</p>
+    </ol>
+    <h1>Classes and Ids</h1>
+    <ol>
+        <li><u>Write down a selector for a certain class</u></li>
+        <p>.class { css declarations; }</p>
+        <li><u>Write down a selector for a certain html element of a certain class</u></li>
+        <p>.class h1 {css declarations; }</p>
+        <li><u>Write down a selector for a certain id</u></li>
+        <p>#id { css declarations; }</p>
+        <li><u>Write down a selector for a certain html element of a certain id</u></li>
+        <p>#id h1 {css declarations;}</p>
+        <li><u>Write down the start tag of a certain html element with a specific class.</u></li>
+        <p>
+            < h1 class="MyClass">
+                < /h1> </p> <li><u>Write down the start tag of a certain html element with a specific id.</u></li>
+                    <p>
+                        < h1 id="MyId">
+                            < /h1> </p> <li><u>Do classes select one or more elemtens?</u></li>
+                                <p>Class can apply to more elements</p>
+                                <li><u>Do ids select one or more elements?</u></li>
+                                <p>Id can only apply to one element</p>
+                                <li><u>How often can classes / ids occur on one page?</u></li>
+                                <p>You can use them as often as you want</p>
+    </ol>
+    <h1>Floating</h1>
+    <ol>
+        <li><u>Write down the css declaration to make an html element float to the left</u></li>
+        <p>h1 { float:left; }</p>
+        <li><u>Make an html element stop floating around another (for a specific direction, for all directions)</u></li>
+        <p>h1 { overflow: hidden; <br> display:inline; }</p>
+    </ol>
+
+</body>
+
+</html>
