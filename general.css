@@ -1,11 +1,6 @@
-#suche
-{
-
-}
-
 label{
     color:white;
-    
+    margin-left:30pt;
 }
 h1{
     text-align: center;
@@ -29,6 +24,9 @@ li{
 ul{
     padding-left: 1em;
     list-style-type: square;
+}
+#heading{
+    margin-top:20pt;
 }
 .header li{
     display:inline;
